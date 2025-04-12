@@ -17,7 +17,7 @@ public class TestBase {
     public void setupAll() {
     	System.setProperty("allure.results.directory", "target/allure-results");
         playwright = Playwright.create();
-        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(100));
     }
 
     @BeforeMethod
