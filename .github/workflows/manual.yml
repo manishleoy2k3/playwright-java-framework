@@ -18,22 +18,17 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '23'
+          java-version: '17'
+
+      - name: Install Playwright Browsers
+        run: mvn exec:java -e -Dexec.mainClass="com.microsoft.playwright.CLI" -Dexec.args="install"
 
       - name: Set up Playwright
         run: |
           npx playwright install --with-deps
 
-      - name: Run Tests
-        run: mvn clean test
+      - name: Run Tests with Maven
+        run: mvn clean test -X
 
       - name: Generate Allure Report
-        run: |
-          npm install -g allure-commandline --save-dev
-          allure generate allure-results --clean -o allure-report
-
-      - name: Upload Allure Report
-        uses: actions/upload-artifact@v3
-        with:
-          name: allure-report
-          path: allure-report
+        run: mvn allure:report
