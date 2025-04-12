@@ -9,11 +9,15 @@ on:
 jobs:
   test:
     runs-on: self-hosted
+    permissions:
+      contents: write # Important: enables push to gh-pages
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+        with:
+          fetch-depth: 0  # Required for pushing to another branch
+          
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
