@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Apr 12 22:09:54 IST 2025","Sat Apr 12 22:09:58 IST 2025","4213","Playwright Automation Suite","Web and API Tests","tests.api.UserAPITest","tests.api.UserAPITest","testGetUser","testGetUser","Verify user details are fetched successfully"
+"passed","Sat Apr 12 22:11:28 IST 2025","Sat Apr 12 22:11:31 IST 2025","3115","Playwright Automation Suite","Web and API Tests","tests.web.LoginTest","tests.web.LoginTest","verifyPageTitle","Open Example.com and check title",""

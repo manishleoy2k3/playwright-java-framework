@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Manishs-MacBook-Air.local",
+    "children" : [ {
+      "name" : "36666@Manishs-MacBook-Air.local.TestNG-test-Web and API Tests-2(21)",
+      "children" : [ {
+        "name" : "testGetUser",
+        "uid" : "4aa62d48bc39fe82",
+        "parentUid" : "fb48d8f27a33e20d7175940a2720c15d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744475994575,
+          "stop" : 1744475998788,
+          "duration" : 4213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb48d8f27a33e20d7175940a2720c15d"
+    }, {
+      "name" : "36666@Manishs-MacBook-Air.local.TestNG-test-Web and API Tests-1(20)",
+      "children" : [ {
+        "name" : "Open Example.com and check title",
+        "uid" : "5b7815750dacabce",
+        "parentUid" : "ada9170dc28b29788087c8f4d4e9ec52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744476088482,
+          "stop" : 1744476091597,
+          "duration" : 3115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ada9170dc28b29788087c8f4d4e9ec52"
+    } ],
+    "uid" : "fa542fc4425852f2bcd18d8fa2a165a9"
+  } ],
+  "name" : "timeline"
+}

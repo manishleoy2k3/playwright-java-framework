@@ -1,0 +1,178 @@
+{
+  "uid" : "5b7815750dacabce",
+  "name" : "Open Example.com and check title",
+  "fullName" : "tests.web.LoginTest.verifyPageTitle",
+  "historyId" : "f076a32315f2c7c35f17c9ede3e0b0ca",
+  "time" : {
+    "start" : 1744476088482,
+    "stop" : 1744476091597,
+    "duration" : 3115
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupAll",
+    "time" : {
+      "start" : 1744475993864,
+      "stop" : 1744476087622,
+      "duration" : 93758
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1744476087635,
+      "stop" : 1744476088388,
+      "duration" : 753
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigating to example.com",
+      "time" : {
+        "start" : 1744476088487,
+        "stop" : 1744476088494,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Page title is: Example Domain",
+      "time" : {
+        "start" : 1744476090644,
+        "stop" : 1744476090644,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1744476091603,
+      "stop" : 1744476091645,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1744476091647,
+      "stop" : 1744476091726,
+      "duration" : 79
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.web.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.web.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPageTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Playwright Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web and API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.web.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Manishs-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "36666@Manishs-MacBook-Air.local.TestNG-test-Web and API Tests-1(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Basic Page Title Check"
+  }, {
+    "name" : "epic",
+    "value" : "Web Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Sample Login Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b7815750dacabce.json",
+  "parameterValues" : [ ]
+}

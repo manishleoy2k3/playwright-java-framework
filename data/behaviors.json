@@ -1,0 +1,55 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "API Automation",
+    "children" : [ {
+      "name" : "User API",
+      "children" : [ {
+        "name" : "Get User by ID",
+        "children" : [ {
+          "name" : "testGetUser",
+          "uid" : "4aa62d48bc39fe82",
+          "parentUid" : "8787836525bc073837c9f149edc2babb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1744475994575,
+            "stop" : 1744475998788,
+            "duration" : 4213
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8787836525bc073837c9f149edc2babb"
+      } ],
+      "uid" : "608cbcb17656753a2eef60a9ed640272"
+    } ],
+    "uid" : "da4f110fa7f9d6cdbb33944854e09dc3"
+  }, {
+    "name" : "Web Tests",
+    "children" : [ {
+      "name" : "Sample Login Page",
+      "children" : [ {
+        "name" : "Basic Page Title Check",
+        "children" : [ {
+          "name" : "Open Example.com and check title",
+          "uid" : "5b7815750dacabce",
+          "parentUid" : "9db59eed23077e0afcc6ca2d0e66ad23",
+          "status" : "passed",
+          "time" : {
+            "start" : 1744476088482,
+            "stop" : 1744476091597,
+            "duration" : 3115
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9db59eed23077e0afcc6ca2d0e66ad23"
+      } ],
+      "uid" : "1fdc9e6c12110cea2d5fb8fd6aacee91"
+    } ],
+    "uid" : "d0d267e98d885ed554c4ec65b826c877"
+  } ],
+  "name" : "behaviors"
+}
