@@ -1,0 +1,3 @@
+tests/web/LoginTest.class
+tests/api/UserAPITest.class
+tests/base/TestBase.class
