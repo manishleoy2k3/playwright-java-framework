@@ -1,8 +1,12 @@
 package tests.base;
 
 import org.testng.annotations.*;
+import org.testng.annotations.Listeners;
 import com.microsoft.playwright.*;
 
+import io.qameta.allure.testng.AllureTestNg;
+
+@Listeners({AllureTestNg.class})
 public class TestBase {
     protected static Playwright playwright;
     protected static Browser browser;
@@ -10,24 +14,25 @@ public class TestBase {
     protected Page page;
 
     @BeforeClass
-    static void setupAll() {
+    public void setupAll() {
+    	System.setProperty("allure.results.directory", "target/allure-results");
         playwright = Playwright.create();
         browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
     }
 
     @BeforeMethod
-    void setup() {
+    public void setup() {
         context = browser.newContext();
         page = context.newPage();
     }
 
     @AfterMethod
-    void tearDown() {
+    public void tearDown() {
         context.close();
     }
 
     @AfterClass
-    static void tearDownAll() {
+    public void tearDownAll() {
         playwright.close();
     }
 }

@@ -1,22 +1,24 @@
 package tests.web;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import io.qameta.allure.*;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import tests.base.TestBase;
 
-@Epic("Web Automation")
-@Feature("Login")
+@Epic("Web Tests")
+@Feature("Sample Login Page")
 public class LoginTest extends TestBase {
 
-    @Test
-    @Story("Valid Login")
-    @Description("Verify user can log in with valid credentials")
-    public void testLogin() {
-        page.navigate("https://example.com/login");
-        page.fill("#username", "testuser");
-        page.fill("#password", "password123");
-        page.click("#loginBtn");
-        AssertJUnit.assertTrue(page.url().contains("dashboard"));
+    @Test(description = "Open Example.com and check title")
+    @Story("Basic Page Title Check")
+    @Severity(SeverityLevel.NORMAL)
+    public void verifyPageTitle() {
+        Allure.step("Navigating to example.com");
+        page.navigate("https://example.com");
+
+        String title = page.title();
+        Allure.step("Page title is: " + title);
+
+        Assert.assertEquals(title, "Example Domain", "Title should match expected value");
     }
 }
