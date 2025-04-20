@@ -1,20 +1,20 @@
 [ {
-  "uid" : "4aa62d48bc39fe82",
-  "name" : "testGetUser",
+  "uid" : "6098479efa36d331",
+  "name" : "POST user using REST Assured and validate JSON schema",
   "time" : {
-    "start" : 1744475994575,
-    "stop" : 1744475998788,
-    "duration" : 4213
+    "start" : 1745162781014,
+    "stop" : 1745162785022,
+    "duration" : 4008
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "critical"
 }, {
-  "uid" : "5b7815750dacabce",
+  "uid" : "102199aba3898825",
   "name" : "Open Example.com and check title",
   "time" : {
-    "start" : 1744476088482,
-    "stop" : 1744476091597,
-    "duration" : 3115
+    "start" : 1745162887622,
+    "stop" : 1745162889599,
+    "duration" : 1977
   },
   "status" : "passed",
   "severity" : "normal"

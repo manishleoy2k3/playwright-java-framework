@@ -1,22 +1,22 @@
 {
-  "uid" : "5b7815750dacabce",
+  "uid" : "102199aba3898825",
   "name" : "Open Example.com and check title",
   "fullName" : "tests.web.LoginTest.verifyPageTitle",
   "historyId" : "f076a32315f2c7c35f17c9ede3e0b0ca",
   "time" : {
-    "start" : 1744476088482,
-    "stop" : 1744476091597,
-    "duration" : 3115
+    "start" : 1745162887622,
+    "stop" : 1745162889599,
+    "duration" : 1977
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setupAll",
+    "name" : "setup",
     "time" : {
-      "start" : 1744475993864,
-      "stop" : 1744476087622,
-      "duration" : 93758
+      "start" : 1745162886620,
+      "stop" : 1745162887566,
+      "duration" : 946
     },
     "description" : "",
     "status" : "passed",
@@ -28,11 +28,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "setupAll",
     "time" : {
-      "start" : 1744476087635,
-      "stop" : 1744476088388,
-      "duration" : 753
+      "start" : 1745162780863,
+      "stop" : 1745162886603,
+      "duration" : 105740
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
     "steps" : [ {
       "name" : "Navigating to example.com",
       "time" : {
-        "start" : 1744476088487,
-        "stop" : 1744476088494,
-        "duration" : 7
+        "start" : 1745162887624,
+        "stop" : 1745162887624,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,8 +64,8 @@
     }, {
       "name" : "Page title is: Example Domain",
       "time" : {
-        "start" : 1744476090644,
-        "stop" : 1744476090644,
+        "start" : 1745162888571,
+        "stop" : 1745162888571,
         "duration" : 0
       },
       "status" : "passed",
@@ -85,11 +85,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "tearDown",
+    "name" : "tearDownAll",
     "time" : {
-      "start" : 1744476091603,
-      "stop" : 1744476091645,
-      "duration" : 42
+      "start" : 1745162889662,
+      "stop" : 1745162889755,
+      "duration" : 93
     },
     "description" : "",
     "status" : "passed",
@@ -101,11 +101,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "tearDownAll",
+    "name" : "tearDown",
     "time" : {
-      "start" : 1744476091647,
-      "stop" : 1744476091726,
-      "duration" : 79
+      "start" : 1745162889613,
+      "stop" : 1745162889657,
+      "duration" : 44
     },
     "description" : "",
     "status" : "passed",
@@ -140,7 +140,7 @@
     "value" : "Manishs-MacBook-Air.local"
   }, {
     "name" : "thread",
-    "value" : "36666@Manishs-MacBook-Air.local.TestNG-test-Web and API Tests-1(20)"
+    "value" : "23767@Manishs-MacBook-Air.local.TestNG-test-Web and API Tests-1(19)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -173,6 +173,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5b7815750dacabce.json",
+  "source" : "102199aba3898825.json",
   "parameterValues" : [ ]
 }

@@ -1,26 +1,27 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "API Automation",
     "children" : [ {
       "name" : "User API",
       "children" : [ {
-        "name" : "Get User by ID",
+        "name" : "POST User - Schema Validation with REST Assured",
         "children" : [ {
-          "name" : "testGetUser",
-          "uid" : "4aa62d48bc39fe82",
-          "parentUid" : "8787836525bc073837c9f149edc2babb",
+          "name" : "POST user using REST Assured and validate JSON schema",
+          "uid" : "6098479efa36d331",
+          "parentUid" : "3bf19fec7745e386015b9b40a855312a",
           "status" : "passed",
           "time" : {
-            "start" : 1744475994575,
-            "stop" : 1744475998788,
-            "duration" : 4213
+            "start" : 1745162781014,
+            "stop" : 1745162785022,
+            "duration" : 4008
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "8787836525bc073837c9f149edc2babb"
+        "uid" : "3bf19fec7745e386015b9b40a855312a"
       } ],
       "uid" : "608cbcb17656753a2eef60a9ed640272"
     } ],
@@ -33,13 +34,13 @@
         "name" : "Basic Page Title Check",
         "children" : [ {
           "name" : "Open Example.com and check title",
-          "uid" : "5b7815750dacabce",
+          "uid" : "102199aba3898825",
           "parentUid" : "9db59eed23077e0afcc6ca2d0e66ad23",
           "status" : "passed",
           "time" : {
-            "start" : 1744476088482,
-            "stop" : 1744476091597,
-            "duration" : 3115
+            "start" : 1745162887622,
+            "stop" : 1745162889599,
+            "duration" : 1977
           },
           "flaky" : false,
           "newFailed" : false,
@@ -50,6 +51,5 @@
       "uid" : "1fdc9e6c12110cea2d5fb8fd6aacee91"
     } ],
     "uid" : "d0d267e98d885ed554c4ec65b826c877"
-  } ],
-  "name" : "behaviors"
+  } ]
 }

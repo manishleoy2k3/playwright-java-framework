@@ -1,37 +1,38 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "Playwright Automation Suite",
     "children" : [ {
       "name" : "Web and API Tests",
       "children" : [ {
-        "name" : "tests.api.UserAPITest",
+        "name" : "tests.api.PostUserAPITest",
         "children" : [ {
-          "name" : "testGetUser",
-          "uid" : "4aa62d48bc39fe82",
-          "parentUid" : "f54a6e75786626470b0919cfeba1edc2",
+          "name" : "POST user using REST Assured and validate JSON schema",
+          "uid" : "6098479efa36d331",
+          "parentUid" : "235e5564a3b0f9730a15abcd77c54c44",
           "status" : "passed",
           "time" : {
-            "start" : 1744475994575,
-            "stop" : 1744475998788,
-            "duration" : 4213
+            "start" : 1745162781014,
+            "stop" : 1745162785022,
+            "duration" : 4008
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "f54a6e75786626470b0919cfeba1edc2"
+        "uid" : "235e5564a3b0f9730a15abcd77c54c44"
       }, {
         "name" : "tests.web.LoginTest",
         "children" : [ {
           "name" : "Open Example.com and check title",
-          "uid" : "5b7815750dacabce",
+          "uid" : "102199aba3898825",
           "parentUid" : "f7a5c4146fdf56db47aa746f89f17d22",
           "status" : "passed",
           "time" : {
-            "start" : 1744476088482,
-            "stop" : 1744476091597,
-            "duration" : 3115
+            "start" : 1745162887622,
+            "stop" : 1745162889599,
+            "duration" : 1977
           },
           "flaky" : false,
           "newFailed" : false,
@@ -42,6 +43,5 @@
       "uid" : "aeec238bd798e5e5606e20e8282413dd"
     } ],
     "uid" : "4376cb97c8cfa99a3b7f3eb18b72d5a7"
-  } ],
-  "name" : "suites"
+  } ]
 }
