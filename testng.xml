@@ -10,7 +10,7 @@
     <classes>
       <class name="tests.base.TestBase"/>
       <class name="tests.web.LoginTest"/>
-      <class name="tests.api.UserAPITest"/>
+      <class name="tests.api.PostUserAPITest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
