@@ -7,6 +7,12 @@
   </listeners>
 
   <test name="Web and API Tests">
+  <groups>
+  	<run>
+    	<include name="rate-limiting"/>
+    	<include name="timeout"/>
+  	</run>
+	</groups>
     <classes>
       <class name="tests.base.TestBase"/>
       <class name="tests.web.LoginTest"/>

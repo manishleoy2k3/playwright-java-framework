@@ -1,4 +1,4 @@
-package tests;
+package tests.api.user;
 
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import java.util.HashMap;
 
-public class UserApiTest extends BaseTest{
+public class UserApiTests extends BaseTest{
     @Test
     public void createUserTest() {
         HashMap<String, String> headers = new HashMap<>();

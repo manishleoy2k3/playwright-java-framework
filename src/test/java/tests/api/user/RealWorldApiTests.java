@@ -1,6 +1,5 @@
-package tests;
+package tests.api.user;
 
-import builder.RequestBuilder;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import model.CreateUserRequest;
