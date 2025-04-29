@@ -2,10 +2,12 @@
 *.class
 
 # Maven target directory
-target/
+target/*
 
 # TestNG output directory
 test-output/
+
+playwright.png
 
 # WireMock mappings and files (if dynamically generated during test)
 .mappings/
